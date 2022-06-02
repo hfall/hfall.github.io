@@ -1,3 +1,3 @@
 # Projects
 
-[Push Notification](https://hfall.github.io/push_notification_demo/)
+[Home page](https://hfall.github.io)
