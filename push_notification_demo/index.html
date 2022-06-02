@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pwDemo</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      button {
+        font-size: 20px;
+        padding: 20px;
+        cursor: pointer;
+        appearance: none;
+        border: 2px solid green;
+        background: white;
+        color: green;
+      }
+      button:disabled {
+        opacity: 0.3;
+      }
+      .v2 {
+        border-color: orange;
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <button id="send-js">Send Notification</button>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
