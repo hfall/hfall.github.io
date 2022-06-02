@@ -73,6 +73,7 @@ function eventInit() {
     // e.currentTarget.classList.add("v2");
     // Using the registration object, we can call the `showNotification` method to push notification
     navigator.serviceWorker.getRegistration().then((registration) => {
+      console.log(registration);
       // registration.showNotification(titles[selectedOption], options);
       new Notification(titles[selectedOption], options);
     });
